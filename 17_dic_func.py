@@ -19,3 +19,10 @@ print(dic.values())
 #list 로 변경해서 values 라는 변수에 담아보자
 values = list(dic.values())
 print(values)
+
+# dic.items() : 사전의 키:값을 한쌍으로 가져와 dict_items 로 반환한다.
+# 각 키와 값은 () 모양으로 보아 tuple 이다.
+print(dic.items())
+# list 로 변환해 보면 list 안에 각 키와 값이 튜플로 저장되어 있음을 알 수 있다.
+li = list(dic.items())
+print(li)

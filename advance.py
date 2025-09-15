@@ -6,7 +6,7 @@ field2 = 'String'
 def sum(a,b):
     return a+b
 
-def sum(a,b):
+def minus(a,b):
     return a-b
 
 def multiply(a,b):

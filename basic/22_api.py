@@ -5,7 +5,7 @@ def print_max(x,y):
     :param x: 인자값 1
     :param y: 인자값2
     '''
-    print(f'{x}와 {y}중에 ...');
+    print(f'{x}와 {y}중에 ...')
     if x > y:
         print(f'{x} 가 더 큽니다.')
     else:

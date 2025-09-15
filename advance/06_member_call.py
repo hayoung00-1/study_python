@@ -8,7 +8,6 @@ class Car:
         pass
 
     #멤버함수 - 클래스 안의 생성자 함수들은 해당 객체를 표시하기 위한 self를 기본적으로 가지고 있는다.
-
     def start(self):
         pass
 

@@ -24,3 +24,6 @@ class Teacher(SchoolMember): #자식
     def __init__(self, name, age, salary):
         super().__init__(name, age)
         self.salary = salary
+
+t = Teacher('김철수',33,50000000)
+print(f'{t.name}({t.age}) - {t.salary}')
